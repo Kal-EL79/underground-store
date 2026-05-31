@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #050505;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #6a00ff, #ff003c);
+    box-shadow: 0 0 30px #ff003c;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #ff4dff;
+    text-shadow: 0 0 10px #ff4dff;
+}
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+}
+
+.card {
+    width: 300px;
+    background: linear-gradient(135deg, #25003d, #440000);
+    border: 2px solid #ff00ff;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(255,0,255,.5);
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card h3 {
+    margin: 15px 0;
+}
+
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg,#ff00ff,#ff003c);
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
