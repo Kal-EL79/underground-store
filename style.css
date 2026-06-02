@@ -21,21 +21,7 @@
     color: white;
 }
 
-.hero {
-    text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(135deg, #6a00ff, #ff003c);
-    box-shadow: 0 0 30px #ff003c;
-}
 
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.1rem;
-}
 
 h2 {
     text-align: center;
