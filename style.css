@@ -1,4 +1,16 @@
-.hero-image img {
+.hero-banner {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-banner img {
+  width: 100%;
+  max-width: 1600px;
+  display: block;
+  margin: 0 auto;
+}hero-image img {
     width: 100%;
     display: block;
 }body {
