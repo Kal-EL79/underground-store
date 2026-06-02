@@ -2,12 +2,13 @@
   width: 100%;
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin: 20px auto;
 }
 
 .hero-banner img {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1000px;
+  height: auto;
   display: block;
   margin: 0 auto;
 }hero-image img {
