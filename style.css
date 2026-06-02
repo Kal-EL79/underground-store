@@ -1,4 +1,7 @@
-body {
+.hero-image img {
+    width: 100%;
+    display: block;
+}body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #050505;
