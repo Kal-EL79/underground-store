@@ -78,8 +78,17 @@
     <div class="card">
     <img src="images/zinemahq.png">
     <h3>The Underground Zinema HQ 7.0</h3>
-    <a href="#">
-        Coming Soon
-    </a>
-</div>
-</div>
+    <a href="#" onclick="checkZinemaCode()">
+    Download App
+</a></div>
+    <script>
+function checkZinemaCode() {
+    var code = prompt("Enter VIP Access Code:");
+
+    if (code === "43302") {
+        window.location.href = "https://your-download-link.apk";
+    } else {
+        alert("Incorrect Code");
+    }
+}
+</script></div>
