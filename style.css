@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #050505;
+    color: white;
+}
+
+/* Banner */
+
 .hero-banner {
     text-align: center;
     margin: 0 auto 20px auto;
@@ -11,21 +20,52 @@
     display: block;
     margin: 0 auto;
 }
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #050505;
-    color: white;
-}
 
+/* Headings */
 
-
+h1,
 h2 {
     text-align: center;
-    margin-top: 50px;
     color: #ff4dff;
     text-shadow: 0 0 10px #ff4dff;
 }
+
+h2 {
+    margin-top: 40px;
+}
+
+/* Passcode Screen */
+
+#lock-screen {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#passcode {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    width: 220px;
+    text-align: center;
+}
+
+#lock-screen button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background: linear-gradient(135deg,#ff00ff,#ff003c);
+    color: white;
+}
+
+#error {
+    color: red;
+    margin-top: 15px;
+}
+
+/* App Section */
 
 .apps {
     display: flex;
@@ -34,6 +74,8 @@ h2 {
     gap: 25px;
     padding: 25px;
 }
+
+/* App Cards */
 
 .card {
     width: 300px;
@@ -45,16 +87,25 @@ h2 {
     box-shadow: 0 0 25px rgba(255,0,255,.5);
 }
 
+/* APK Images */
+
 .card img {
     width: 120px;
     height: 120px;
-    object-fit: cover;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 15px auto;
     border-radius: 20px;
 }
 
+/* Titles */
+
 .card h3 {
     margin: 15px 0;
+    font-size: 22px;
 }
+
+/* Download Buttons */
 
 .card a {
     display: inline-block;
@@ -64,14 +115,27 @@ h2 {
     padding: 12px 25px;
     border-radius: 50px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .card a:hover {
     transform: scale(1.05);
 }
 
+/* Mobile */
+
 @media (max-width: 768px) {
+
+    .hero-banner img {
+        width: 95%;
+    }
+
     .card {
         width: 90%;
+    }
+
+    .card img {
+        width: 100px;
+        height: 100px;
     }
 }
